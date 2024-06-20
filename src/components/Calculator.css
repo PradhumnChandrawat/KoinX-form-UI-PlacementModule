@@ -1,0 +1,249 @@
+.conatiner {
+  width: 45vw;
+  height: auto;
+  padding-bottom: 1rem;
+  color: #343434;
+  padding-top: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.heading-div {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: 800;
+  align-items: center;
+}
+.upper-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f2f5;
+}
+.upper-input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0.5rem;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-left: 12px;
+}
+.right-section {
+  margin-left: 1rem;
+}
+
+.upper-span {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: #666;
+}
+.select-tag {
+  font-weight: 600;
+  padding-right: 5rem;
+  outline: none;
+  border: none;
+  background-color: #f0f2f5;
+}
+.select-tag-right {
+  font-weight: 600;
+  padding-right: 7.3rem;
+  outline: none;
+  border: none;
+  background-color: #f0f2f5;
+}
+.select-tag option {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.lower-div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.lower-left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lower-left-div1 {
+  margin-bottom: 2rem;
+}
+.lower-left > div {
+  flex: 1;
+}
+
+.lower-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.lower-right-div1 {
+  margin-bottom: 2rem;
+}
+.lower-right > div {
+  flex: 1;
+}
+.lower-right-div2 {
+  padding-top: 2rem;
+  margin-top: -6px;
+}
+.lower-right-div2 > .input-container:first-child {
+  margin-bottom: 1.3rem;
+}
+.tax-rate-pera {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #666;
+}
+.input-container {
+  margin: 10px;
+}
+
+input[type="text"] {
+  width: 270px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #f0f2f5;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #666;
+}
+
+input[type="text"]::placeholder {
+  color: rgb(17, 17, 17);
+}
+
+label {
+  display: block;
+  font-size: 12.5px;
+  font-weight: 570;
+  color: #666;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn-lable {
+  margin-left: 0.5rem;
+}
+.check-btn {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: -7px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.investment-btn {
+  background-color: #ffffff;
+  color: black;
+  border: 2px solid #cccccc;
+  border-radius: 7px;
+  padding: 11px 12px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+}
+.check-btn-1 {
+  width: 50%;
+}
+
+.investment-btn.active {
+  border-color: #2151f4;
+  color: #2151f4;
+  background-color: #e8e8e8;
+}
+.investment-btn .icon {
+  color: #2151f4;
+  margin-left: 8px;
+}
+
+.month {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+.month span,
+.month svg {
+  font-size: 12px;
+  font-weight: 600;
+  color: #666;
+  margin-left: 10px;
+  margin-right: -10px;
+}
+.less {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.more {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.capital-gain {
+  width: 270px;
+  background-color: #eef9f4;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+}
+.tax-gain {
+  width: 270px;
+  background-color: #ebf2ff;
+  padding-bottom: 0.5rem;
+  border-radius: 5px;
+}
+.capital-pera {
+  font-size: 13px;
+  font-weight: 600;
+  color: #666;
+  text-align: center;
+}
+.capital-amount {
+  text-align: center;
+}
+.tax-amount {
+  text-align: center;
+}
+.capital-amount span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(89, 175, 89);
+}
+.tax-amount span {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2151f4;
+}
